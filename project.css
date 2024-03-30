@@ -4,6 +4,10 @@
     font-family: Arial;
     border: border-box;
 }
+
+body{
+    max-width: 100%;
+}
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -14,15 +18,16 @@
 }
 .nav_logo{
     height: 50px;
-    width: 140px;
+    width: 113px;
+    display: inline-block;
 }
 .logo{
     background-image:url(klipartz.com.png);
-    background-size: cover;
+    
     height: 50px;
     width: 100%;
     margin-top: 2px;
-   padding-right: -5px;
+    padding-right: -5px;
 }
 .border{
     border: 1px solid transparent;
@@ -53,11 +58,12 @@
     width: 1200px;
     height: 40px;
     border-radius: 2px;
+
 }
 
 .nav-search:hover{
     border: 2px solid #febd68 ;
-  
+    border-radius: 6px;
 }
 .search-select{
     background-color: #f3f3f3;
@@ -71,6 +77,8 @@
     width: 1200px;
     font-size: 1rem;
     border: none;
+    outline: none;
+    padding-left: 10px;
 }
 .search-icon{
     width: 45px;
