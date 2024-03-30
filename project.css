@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav_logo{
+    height: 50px;
+    width: 140px;
+}
+.logo{
+    background-image:url(klipartz.com.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    margin-top: 2px;
+   padding-right: -5px;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white
+}
+
+/* box2 */
+.Deliver{
+    color: hsl(0, 0%, 100%,0.75);
+    font-size: 0.85rem;
+    margin-top: 1px;
+    margin-left: 25px;
+}
+.India{
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 1px;
+    margin-top: 2px;
+}
+.add-icon{
+    display: flex;
+}
+/*box3*/
+.nav-search{
+    display: flex;
+    width: 1200px;
+    height: 40px;
+    border-radius: 2px;
+}
+
+.nav-search:hover{
+    border: 2px solid #febd68 ;
+  
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px; 
+    border: none;
+}
+.search-input{
+    width: 1200px;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px; 
+    color: #0f1111;
+}
+
+/* box4 */
+
+span{
+    font-size: 0.8rem;
+}
+
+.nav-second{
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+/* box5 */
+
+#cart{
+    width: 40px;
+}
+
+.nav-cart{
+    display: flex;
+}
+
+.nav-cart p{
+    margin-top: 19px;
+    font-weight: 700;
+}
+
+.nav-cart span{
+    font-size: 40px;
+
+}
+
+/* Panel  */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#menu{
+    position: relative;
+    top: 2px;
+}
+
+#all{
+    position: relative;
+    bottom: 5px;
+    font-size: 15px;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+
+}
+.panel-ops {
+    width: 70%;
+    font-size: 0.8rem;
+    
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight:700 ;
+}
+
+/* hero section */
+.hero-section{
+    background-image: url(hero.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 150px;
+    margin-right: 150px;
+ 
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color: #007185;
+    text-decoration: none;
+}
+
+/* shop section */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box1-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.box-content{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.shop-section a{
+    color: #007185;
+    text-decoration: none;
+}
+
+/* footer */
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+.panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul p{
+    margin-bottom: 15px;
+}
+
+ul a{
+    font-size: 0.85rem;
+    margin-top: 10px;
+    display: block;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+/* panel3 */
+
+.panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    background-image:url(klipartz.com.png);
+    background-size: cover;
+    height: 50px;
+    width: 140px;
+    margin-top: 10px;
+   padding-right: -5px;
+}
+
+/* panel4 */
+
+.panel4{
+    background-color: #0f1111;
+    color: white;
+    /* display: flex;
+    justify-content: center; */
+    height: 50px;
+}
+
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 5px;
+}
+.pages a{
+    color: white;
+    text-decoration: none;
+}
+.copyright{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 5px;
+}
